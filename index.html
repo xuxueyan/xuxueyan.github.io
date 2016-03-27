@@ -1,45 +1,148 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <style>
+      *{ margin:0; padding:0; font-size: 16px;}
+      body{ font-family:"微软雅黑"; font-size:12px; color:#000000;}
+      ul,ol,li{ list-style:none;}
+      input,select,textarea{ vertical-align:middle;}
+      img{ border:none; vertical-align:middle;}
+      a{ text-decoration:none; color:#333333;}
+      a:hover{ color:#009999;}
+      .clear{ clear:both; height:0px; width:0px; overflow:hidden;}
+      header{
+        width: 100%;height: 20rem;
+        background: #5a9ffc;
+      }
+      header ul{
+        padding-top: 8rem;
+        margin-left: 7rem;
+      }
+      header ul li p{
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: 楷体;
+      }
+      header ul li{
+        background: url(images/header.png);
+        width: 11.01rem;height: 4.75rem;
+        float: left;
+        color: #5a9ffc;
+        border-radius: 9rem;
+        text-align: center;
+        line-height: 4.5rem;
+        margin-right: 2rem;
+      }
+      header span{
+        font-size: 1.5rem;color: #fff;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        display: inline-block;
+      }
+      .main{
+        width: 100%;height: 53rem;
+        background: url(images/main.gif);
+      }
+      .main span{
+        width: 55%;height: 25rem;
+        display: inline-block;
+        margin-top: 20rem;float: right;
+        margin-right: 2rem;
+      }
+      .main span .p1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+      }
+      .main span .p2 {
+        width: 36rem;height: 8rem;
+        margin-top: 3rem;margin-left: 3rem;
+        font-size: 1.5rem;line-height: 2.5rem;
+        color: #353434;
+      }
+      .main span .p3{
+        font-size: 2rem;float: right;
+        margin-top: 3rem;margin-right: 3rem;
+        font-family: 楷体;
+        color: #5a9ffc;
+      }
+      #box1{
+        width: 92.55%;height: 12.75rem;
+        background: url(images/bg.gif);
+        line-height: 12.75rem;
+        padding-left: 6rem;
+        color: #fff;
+        font-size: 2rem;
+      }
+      #box1 i{
+        font-size: 2rem;
+        margin-right: 1rem;
+      }
+      footer{
+        width: 100%;height: 30.8rem;
+        background: url(images/footer.gif);
+        border-top: 2px solid #fff;
+      }
+      .box2{
+        width: 100%;height: 93rem;
+        background: url(images/pic.gif);
+      }
+      .box2 span{
+        display: inline-block;
+        font-size: 2rem;
+        background: #bbd6fa;
+        padding: 1rem 1.5rem;
+        margin-top: 5rem;
+        margin-left: 5rem;
+        border-radius: 1rem;
+        border: 1px solid #fff;
+      }
+      ..box2 ol{
+        width: 100%;height: 60rem;
+        margin-left: 5rem;
+      }
+      .box2 ol li{
+        width: 19%;height: 30rem;
+        border: 1px solid red;
+        float: left;
+        margin-left: 4.8%;
+        margin-top: 6rem;
+      }
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Xuxueyan.GitHub.io : qwe">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>大美妞</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/xuxueyan">View on GitHub</a>
-
-          <h1 id="project_title">Xuxueyan.GitHub.io</h1>
-          <h2 id="project_tagline">个人网站</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a id="徐雪燕欢迎你" class="anchor" href="#%E5%BE%90%E9%9B%AA%E7%87%95%E6%AC%A2%E8%BF%8E%E4%BD%A0" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>徐雪燕欢迎你</h1>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+    </style>
+</head>
+<body>
+  <header>
+      <span>美妞制作</span>
+      <ul>
+          <li><p>首页</p></li>
+          <li><p>宣言</p></li>
+          <li><p>展示</p></li>
+          <li><p>联系</p></li>
+          <li><p>唠叨</p></li>
+      </ul>     
+  </header>
+  <div class="main">
+      <span>
+          <p class="p1">梦想还是要有的，万一真的实现了呢？</p>
+          <p class="p2">    人生短短六七十年载，而我已经走了三分之一，前三分之一给了最美的学生时代，最后三分之一要交给家庭，接下来中间的三分一，恩... 我想交给梦想。</p>
+          <p class="p3">徐雪燕</p>
+      </span>
+  </div>
+  <div id="box1">
+    <i class="fa fa-star"></i>我们要做一个优秀的攻城狮，一起危害web前端 .
+  </div>
+  <div class="box2">
+    <span>作品展示</span>
+    <ol>
+      <li></li><li></li><li></li><li></li>
+    </ol>
     
 
-  </body>
+  </div>
+  <footer></footer>
+  
+</body>
 </html>
